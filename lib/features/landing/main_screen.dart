@@ -67,9 +67,9 @@ class _MainScreenState extends State<MainScreen> {
       body: Container(
         decoration: const BoxDecoration(
             image: DecorationImage(
-          fit: BoxFit.fill,
-          image: AssetImage('assets/main/bg.png'),
-        )),
+                fit: BoxFit.fill,
+                image: AssetImage('assets/main/bg.png'),
+                opacity: 0.7)),
         child: SafeArea(
           child: Padding(
             padding: const EdgeInsets.all(10.0),
